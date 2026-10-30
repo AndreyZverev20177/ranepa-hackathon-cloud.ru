@@ -1,0 +1,8 @@
+message_id,published_at,source_type,source_name,url,text,audience,views,ba_sentiment,ba_topic_hit
+demo-1,2026-10-27T10:01:00+03:00,synthetic,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ,https://example.invalid/demo-1,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Cloud.ru: недоступен вымышленный сервис.,12000,1500,,
+demo-2,2026-10-27T10:02:00+03:00,synthetic,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ,https://example.invalid/demo-2,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Cloud.ru: недоступен вымышленный сервис.,,,,
+demo-3,2026-10-27T10:03:00+03:00,synthetic,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ,https://example.invalid/demo-3,"СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Спасибо Cloud.ru, удобно тестировать вымышленный сценарий.",,,,
+demo-4,2026-10-27T10:04:00+03:00,synthetic,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ,https://example.invalid/demo-4,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. SberCloud: вымышленное историческое упоминание.,,,,
+demo-5,2026-10-27T10:05:00+03:00,synthetic,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ,https://example.invalid/demo-5,"СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Другая компания, совпадение по теме требует проверки.",,,,synthetic-topic
+demo-6,2026-10-27T10:06:00+03:00,synthetic,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ,https://example.invalid/demo-6,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Заметка про Cloud.ru.,,,,
+demo-7,2026-10-27T10:07:00+03:00,synthetic,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ,https://example.invalid/demo-7,СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. notcloud.ru и cloud.ru.evil — не бренд.,,,,

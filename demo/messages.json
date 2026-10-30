@@ -1,0 +1,86 @@
+[
+  {
+    "message_id": "demo-1",
+    "published_at": "2026-10-27T10:01:00+03:00",
+    "source_type": "synthetic",
+    "source_name": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ",
+    "url": "https://example.invalid/demo-1",
+    "text": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Cloud.ru: недоступен вымышленный сервис.",
+    "audience": 12000,
+    "views": 1500,
+    "ba_sentiment": null,
+    "ba_topic_hit": null
+  },
+  {
+    "message_id": "demo-2",
+    "published_at": "2026-10-27T10:02:00+03:00",
+    "source_type": "synthetic",
+    "source_name": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ",
+    "url": "https://example.invalid/demo-2",
+    "text": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Cloud.ru: недоступен вымышленный сервис.",
+    "audience": null,
+    "views": null,
+    "ba_sentiment": null,
+    "ba_topic_hit": null
+  },
+  {
+    "message_id": "demo-3",
+    "published_at": "2026-10-27T10:03:00+03:00",
+    "source_type": "synthetic",
+    "source_name": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ",
+    "url": "https://example.invalid/demo-3",
+    "text": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Спасибо Cloud.ru, удобно тестировать вымышленный сценарий.",
+    "audience": null,
+    "views": null,
+    "ba_sentiment": null,
+    "ba_topic_hit": null
+  },
+  {
+    "message_id": "demo-4",
+    "published_at": "2026-10-27T10:04:00+03:00",
+    "source_type": "synthetic",
+    "source_name": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ",
+    "url": "https://example.invalid/demo-4",
+    "text": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. SberCloud: вымышленное историческое упоминание.",
+    "audience": null,
+    "views": null,
+    "ba_sentiment": null,
+    "ba_topic_hit": null
+  },
+  {
+    "message_id": "demo-5",
+    "published_at": "2026-10-27T10:05:00+03:00",
+    "source_type": "synthetic",
+    "source_name": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ",
+    "url": "https://example.invalid/demo-5",
+    "text": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Другая компания, совпадение по теме требует проверки.",
+    "audience": null,
+    "views": null,
+    "ba_sentiment": null,
+    "ba_topic_hit": "synthetic-topic"
+  },
+  {
+    "message_id": "demo-6",
+    "published_at": "2026-10-27T10:06:00+03:00",
+    "source_type": "synthetic",
+    "source_name": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ",
+    "url": "https://example.invalid/demo-6",
+    "text": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. Заметка про Cloud.ru.",
+    "audience": null,
+    "views": null,
+    "ba_sentiment": null,
+    "ba_topic_hit": null
+  },
+  {
+    "message_id": "demo-7",
+    "published_at": "2026-10-27T10:07:00+03:00",
+    "source_type": "synthetic",
+    "source_name": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ",
+    "url": "https://example.invalid/demo-7",
+    "text": "СИНТЕТИЧЕСКИЙ ПРИМЕР — ВЫМЫСЕЛ. notcloud.ru и cloud.ru.evil — не бренд.",
+    "audience": null,
+    "views": null,
+    "ba_sentiment": null,
+    "ba_topic_hit": null
+  }
+]
