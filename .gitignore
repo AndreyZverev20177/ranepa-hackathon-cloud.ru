@@ -19,3 +19,35 @@ artifacts/
 *.json
 !demo/*.csv
 !demo/*.json
+
+# Explicitly tracked non-sensitive configurations and review templates
+!config/*.json
+!gold/*_DRAFT.json
+!gold/*_review_template.json
+!examples/*_DRAFT.json
+
+# Never auto-track real partner results or model caches
+partner_results/
+artifacts/embedding_cache/
+
+# Private partner data
+partner_data/
+
+# Duplicate release folder
+cloud_digest_release/
+
+# Model caches
+.cache/
+models/
+embedding_cache/
+*.safetensors
+*.pt
+*.pth
+
+# Allow nested synthetic demo data
+!demo/**/*.json
+!demo/**/*.csv
+
+# Allow final presentation
+!presentations/**/*.pdf
+!presentations/*.pdf

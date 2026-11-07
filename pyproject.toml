@@ -5,15 +5,20 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cloud-digest-baseline"
 version = "0.1.0"
-description = "Локальный детерминированный baseline, без оценки качества на реальных данных"
+description = "Локальный прототип мониторинга упоминаний: baseline, семантические сюжеты и объяснимый скоринг"
 requires-python = ">=3.11"
 dependencies = []
 
 [project.optional-dependencies]
 dev = ["mypy>=1.11,<2", "build>=1.2,<2"]
+embeddings = ["sentence-transformers>=5.3,<7"]
+ui = ["streamlit>=1.41,<2"]
 
 [project.scripts]
 cloud-digest = "cloud_digest.cli:main"
+cloud-digest-embed = "cloud_digest.embedding_cli:main"
+cloud-digest-candidates = "cloud_digest.candidate_cli:main"
+cloud-digest-evaluate = "cloud_digest.evaluate_cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
