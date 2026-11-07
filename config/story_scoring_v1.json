@@ -1,0 +1,16 @@
+{
+  "_note": "Пилотные коэффициенты Story Score. Аудитория — прокси потенциального охвата, НЕ оценка уникальных читателей. Числовые факты не проверяются внешними источниками.",
+  "weights": {
+    "distribution_per_outlet": 2,
+    "distribution_cap": 6,
+    "reach_cap": 12,
+    "reach_reference": 1000000,
+    "reach_secondary_fraction_pct": 15,
+    "reach_max_fraction_pct": 25,
+    "authority_threshold": 75,
+    "authority_per_extra_publisher": 4,
+    "authority_cap": 8,
+    "new_fact_points": 3,
+    "new_fact_cap": 9
+  }
+}

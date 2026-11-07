@@ -1,0 +1,162 @@
+{
+  "_note": "Пилотные экспертные шкалы, а не проверенные рейтинги достоверности. media_weight читается только из partner_data/top25_sources.json.",
+  "weights": {
+    "negative": 30,
+    "crisis": 20,
+    "audience": 15,
+    "views": 10,
+    "authority": 20,
+    "historical_media_weight": 5,
+    "audience_reference": 1000000,
+    "views_reference": 100000
+  },
+  "top25_authority": [
+    {
+      "source": "telegram.org",
+      "source_type": "Мессенджеры каналы",
+      "authority": 40
+    },
+    {
+      "source": "max.ru",
+      "source_type": "Мессенджеры каналы",
+      "authority": 38
+    },
+    {
+      "source": "vk.com",
+      "source_type": "Соцсети",
+      "authority": 40
+    },
+    {
+      "source": "dzen.ru",
+      "source_type": "Блоги",
+      "authority": 44
+    },
+    {
+      "source": "instagram.com",
+      "source_type": "Соцсети",
+      "authority": 35
+    },
+    {
+      "source": "telegram.org",
+      "source_type": "Мессенджеры чаты",
+      "authority": 25
+    },
+    {
+      "source": "youtube.com",
+      "source_type": "Видео",
+      "authority": 40
+    },
+    {
+      "source": "setka.ru",
+      "source_type": "Соцсети",
+      "authority": 38
+    },
+    {
+      "source": "rutube.ru",
+      "source_type": "Видео",
+      "authority": 36
+    },
+    {
+      "source": "mirtesen.ru",
+      "source_type": "Соцсети",
+      "authority": 28
+    },
+    {
+      "source": "agroxxi.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 58
+    },
+    {
+      "source": "2ch.hk",
+      "source_type": "Форумы",
+      "authority": 20
+    },
+    {
+      "source": "applestyle.su",
+      "source_type": "Онлайн-СМИ",
+      "authority": 43
+    },
+    {
+      "source": "banks.cnews.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 78
+    },
+    {
+      "source": "biz.cnews.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 78
+    },
+    {
+      "source": "agro.cap.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 68
+    },
+    {
+      "source": "corp.cnews.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 78
+    },
+    {
+      "source": "disclosure.1prime.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 80
+    },
+    {
+      "source": "dsmedia.pro",
+      "source_type": "Онлайн-СМИ",
+      "authority": 58
+    },
+    {
+      "source": "forbes.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 88
+    },
+    {
+      "source": "forpes.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 45
+    },
+    {
+      "source": "habr.com",
+      "source_type": "Блоги",
+      "authority": 72
+    },
+    {
+      "source": "habr.com",
+      "source_type": "Онлайн-СМИ",
+      "authority": 76
+    },
+    {
+      "source": "ai.cnews.ru",
+      "source_type": "Онлайн-СМИ",
+      "authority": 78
+    },
+    {
+      "source": "cheb-news.net",
+      "source_type": "Онлайн-СМИ",
+      "authority": 45
+    }
+  ],
+  "fallback_by_type": {
+    "Онлайн-СМИ": 55,
+    "Блоги": 38,
+    "Мессенджеры каналы": 35,
+    "Мессенджеры чаты": 22,
+    "Соцсети": 32,
+    "Видео": 35,
+    "Форумы": 22,
+    "unknown": 30
+  },
+  "fallback_by_domain": {
+    "tass.ru": 90,
+    "interfax.ru": 90,
+    "rbc.ru": 85,
+    "kommersant.ru": 86,
+    "vedomosti.ru": 85,
+    "ria.ru": 84,
+    "cnews.ru": 76,
+    "vc.ru": 58,
+    "ixbt.com": 63,
+    "rg.ru": 82
+  }
+}
